@@ -1,0 +1,120 @@
+<!doctype hml>
+<html>
+  <head>
+    <title>Jane Doette - Portfolio</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="row" id="header">
+        <div class="col-md-2"><img class="title-logo" src="images/udacity_logo.png">
+        </div>
+        <div class="col-md-10 text-right text-uppercase">
+          <h1 class="title-super text-thin">Jason Rubalcaba</h1>
+          <h4>Web Developer and Analyst</h4>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <img class="img-responsive" src="images/SF_BW.jpg" alt="A view of the SF bay.">
+        </div>
+      </div>
+    <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-muted">Featured Work</h2>
+        </div>
+      </div>
+
+      <div class="row text-center">
+
+          <div class="col-md-4 col-sm-6">
+              <img class="img-responsive project-img" src="images/books.png" alt="photo of books" data-toggle="modal" data-target="#project1">
+              <h3 class="project-name">Since Potter</h3>
+              <p><a href="https://github.com/RubyinHollywood/since_potter">Link to project</a></p>
+          </div>
+
+          <div class="col-md-4 col-sm-6">
+              <img class="img-responsive project-img" src="images/gretsch.jpeg" alt="guitar image" data-toggle="modal" data-target="#project2">
+              <h3 class="project-name">Yelp Scraping</h3>
+              <p><a href="https://github.com/mrrockabilly/yelp_scraping">Link to project</a></p>
+          </div>
+
+          <div class="col-md-4 col-sm-6">
+              <img class="img-responsive project-img" src="images/figure8.png" alt="figure 8" data-toggle="modal" data-target="#project3">
+              <h3 class="project-name">Two Body Problem</h3>
+              <p><a href="https://github.com/mrrockabilly/two_body_problem">Link to project</a></p>
+          </div>
+
+      </div>
+
+ <!-- Modals -->
+
+<!-- Modal project1 -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Since Potter</h4>
+        </div>
+        <div class="modal-body text-center">
+            <img class="img-responsive" src="images/books.png">
+            <p class="modal-description">A command line timer built in Ruby.</p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div> <!-- Moda footer-->
+    </div> <!-- Moda content-->
+</div> <!-- Moda dialog-->
+
+</div> <!-- Modal project1-->
+
+<!-- Modal project2 -->
+<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Yelp Scraping</h4>
+          </div>
+          <div class="modal-body text-center">
+            <img class="img-responsive" src="images/gretsch.jpeg">
+            <p class="modal-description">A scraper built in Ruby. It collects the listing from several major cites and saves the data to a CSV.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div> <!-- Moda footer-->
+      </div> <!-- Moda content-->
+  </div> <!-- Moda dialog-->
+</div> <!-- Moda project2-->
+
+<!-- Modal project3 -->
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Two Body Problem</h4>
+          </div>
+          <div class="modal-body text-center">
+            <img class="img-responsive" src="images/figure8.jpg">
+            <p class="modal-description">This project models the trajectory of two bodies with equal mass. There are no outside forces acting on the bodies.<p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div> <!-- Moda footer-->
+      </div> <!-- Moda content-->
+  </div> <!-- Moda dialog-->
+</div> <!-- Moda project3-->
+
+
+  </body>
+</html>

@@ -1,138 +1,26 @@
-body{
-	color: #5D614F;
-	font-family: 'PT Sans', sans-serif;
-	font-size: 13px;
-	font-weight: 400;
-
+body {
+	font-family: 'Lato', sans-serif;
+	color: #676858;
+	font-weight: 300;
 }
 
-hr {
-
-	border-bottom: 2px solid #F98D00;
-}
 .title-logo {
+    width: 140px;
+}
 
+.text-muted {
+	color: #BCBBBB;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+
+.title-super {
+	font-size: 60px;
+}
+
+.title-logo {
 	margin-top: 20px;
-}
-
-.title-name {
-
-	font: 30px arial;
-	color: #5D614F;
-}
-
-.title-position {
-
-	font-size: 12px;
-}
-
-.featured-text {
-
-	font-weight: 700;
-	font-size: 20px;
-}
-
-.img-responsive {
-
-    margin: 0 auto;
-}
-
-.modal-title {
-
-	color: #5D614F;
-}
-
-.project-name{
-
-	font-size: 13px;
-}
-
-.modal-description {
-
-	margin-top: 20px;
-}
-
-/* Media Queries */
-
-@media screen and (max-width: 480px) {
-
-	.title-logo{
-
-		display: none;
-	}
-
-	.title-name,
-	.header-title,
-	.featured-text {
-
-		text-align: center;
-	}
-
-	.project-img {
-
-	max-width: 260px;
-	max-height: 206px;
-}
-
-}
-
-@media screen and (min-width: 481px) and (max-width: 650px){
-
-
-	.title-name {
-
-		font-size: 28px;
-	}
-
-	.title-position {
-
-		font-size: 12px;
-	}
-
-	.project-img {
-
-	max-width: 300px;
-	max-height: 238px;
-}
-}
-
-
-@media screen and (min-width: 651px) and (max-width: 990px){
-
-
-	.title-name {
-
-		font-size: 40px;
-	}
-
-	.title-position {
-
-		font-size: 15px;
-	}
-
-	.project-name {
-
-		font-size: 15px;
-	}
-
-}
-
-@media screen and (min-width: 991px){
-
-	.title-name {
-
-		font-size: 60px;
-	}
-
-	.title-position {
-
-		font-size: 15px;
-	}
-
-	.project-name {
-
-		font-size: 15px;
-	}
-
-
 }
