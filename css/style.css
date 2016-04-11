@@ -24,3 +24,43 @@ body {
 .title-logo {
 	margin-top: 20px;
 }
+
+.img-responsive {
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 995px) {
+	.title-logo{
+		display: none;
+	}
+	.featured-text {
+		text-align: center;
+	}
+	.project-img {
+	max-width: 260px;
+	max-height: 206px;
+}
+}
+
+@media screen and (min-width: 996px){
+
+	.title-name {
+
+		font-size: 60px;
+	}
+
+	.title-position {
+
+		font-size: 15px;
+	}
+
+	.project-name {
+
+		font-size: 15px;
+	}
+	.project-img {
+	width: 250px;
+	height: 250px;
+}
+
+}
