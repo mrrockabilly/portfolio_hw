@@ -5,17 +5,17 @@ body {
 }
 
 .title-logo {
-    width: 140px;
+   width: 110px;
+	 height: 110px;
 }
 
 .text-muted {
-	color: #BCBBBB;
+	color: #bcbbbb;
 }
 
 .text-thin {
 	font-weight: 100;
 }
-
 
 .title-super {
 	font-size: 60px;
@@ -26,41 +26,43 @@ body {
 }
 
 .img-responsive {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
+
 @media screen and (max-width: 995px) {
-	.title-logo{
-		display: none;
+	.title-logo {
+		width: 85px;
+		height: 85px;
+		float:left;
+	}
+	.title-super {
+		font-size: 40px;
 	}
 	.featured-text {
 		text-align: center;
 	}
 	.project-img {
-	max-width: 260px;
-	max-height: 206px;
-}
+		max-width: 260px;
+		max-height: 206px;
+	}
+
 }
 
 @media screen and (min-width: 996px){
 
 	.title-name {
-
 		font-size: 60px;
 	}
-
 	.title-position {
-
 		font-size: 15px;
 	}
-
 	.project-name {
-
 		font-size: 15px;
 	}
 	.project-img {
-	width: 250px;
-	height: 250px;
-}
+		width: 250px;
+		height: 250px;
+  }
 
 }
