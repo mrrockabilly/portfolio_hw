@@ -29,8 +29,25 @@ body {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 470px) {
+	.title-logo {
+		display: none;
+	}
+	.title-super {
+		font-size: 35px;
+	}
+	.featured-text {
+		text-align: center;
+	}
+	.project-img {
+		max-width: 260px;
+		max-height: 206px;
+	}
 
-@media screen and (max-width: 995px) {
+}
+
+
+@media screen and (min-width: 471px) and (max-width: 995px) {
 	.title-logo {
 		width: 85px;
 		height: 85px;
