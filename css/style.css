@@ -28,7 +28,10 @@ body {
 .img-responsive {
   margin: 0 auto;
 }
-
+.img-modal {
+	width: 250px;
+	height: 250px;
+}
 @media screen and (max-width: 470px) {
 	.title-logo {
 		display: none;
