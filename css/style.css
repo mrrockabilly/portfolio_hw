@@ -34,12 +34,17 @@ body {
 	height: 250px;
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 510px) {
 	.title-logo {
-		display: none;
+		width: 70px;
+		height: 70px;
+		float:left;
 	}
 	.title-super {
-		font-size: 35px;
+		font-size: 30px;
+	}
+	.title-position {
+		font-size: 15px;
 	}
 	.featured-text {
 		text-align: center;
@@ -52,7 +57,7 @@ body {
 }
 
 
-@media screen and (min-width: 471px) and (max-width: 995px) {
+@media screen and (min-width: 511px) and (max-width: 995px) {
 	.title-logo {
 		width: 85px;
 		height: 85px;
