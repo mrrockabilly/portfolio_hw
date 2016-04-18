@@ -40,15 +40,19 @@ body {
 		height: 70px;
 		float:left;
 	}
+
 	.title-super {
 		font-size: 30px;
 	}
+
 	.title-position {
 		font-size: 15px;
 	}
+
 	.featured-text {
 		text-align: center;
 	}
+
 	.project-img {
 		max-width: 260px;
 		max-height: 206px;
@@ -63,12 +67,15 @@ body {
 		height: 85px;
 		float:left;
 	}
+
 	.title-super {
 		font-size: 40px;
 	}
+
 	.featured-text {
 		text-align: center;
 	}
+
 	.project-img {
 		max-width: 260px;
 		max-height: 206px;
@@ -81,12 +88,15 @@ body {
 	.title-name {
 		font-size: 60px;
 	}
+
 	.title-position {
 		font-size: 15px;
 	}
+
 	.project-name {
 		font-size: 15px;
 	}
+	
 	.project-img {
 		width: 250px;
 		height: 250px;
